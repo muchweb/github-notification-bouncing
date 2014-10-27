@@ -1,0 +1,28 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+  @keyframes bounce {
+    to {
+      transform: scale(1.4);
+      opacity: 1;
+    }
+  }
+
+  @keyframes shrink {
+    0%,
+    50% {
+      width: 14px;
+      height: 14px;
+      box-shadow: 0 0 8px transparent;
+    }
+  }
+
+  .mail-status.unread {
+    animation: bounce .5s ease-out infinite alternate, shrink 60s linear;
+    width:  24px;
+    height:  24px;
+    opacity: 0.9;
+    transform: scale(1);
+    box-shadow: 0 0 8px #4183C4;
+  }
+}
