@@ -1,5 +1,7 @@
 # Bouncing notification for Github
 
+![peview](https://cloud.githubusercontent.com/assets/7157049/4800075/70427594-5e22-11e4-9d91-645e8e070649.gif)
+
 Indicator for those, who keep ignoring their notifications :smirk:
 
 ## Installation
